@@ -1,6 +1,6 @@
 server: # REST and WS server
-  port: 2333
-  address: 0.0.0.0
+  port: 433
+  address: 70.8.5.4
 lavalink:
   server:
     password: "coders"
@@ -42,7 +42,7 @@ sentry:
 logging:
   file:
     max-history: 30
-    max-size: 1GB
+    max-size: 5GB
   path: ./logs/
 
   level:
